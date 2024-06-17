@@ -3,7 +3,7 @@ adds filename to the json along with the mpd playlist ids for songs.
 i want to add the rest of it but chatgpt sucks at haskell and i only know bash so it was slow going just to add the fucking file name.  
 the fucking IDs were surprisingly worse.
 
-#+TITLE: Print currently playing MPD's song metadata and status as JSON
+~~#+TITLE: Print currently playing MPD's song metadata and status as JSON
 # #+PROPERTY: header-args :comments org
 #+OPTIONS: toc:1
 
@@ -25,4 +25,4 @@ get values
 : mpd-current-json | jaq .status.elapsed_percent
 
 provide host and port with
-: mpd-current-json -h 'localhost' -p 4321
+: mpd-current-json -h 'localhost' -p 4321~~
