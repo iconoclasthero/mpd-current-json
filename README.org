@@ -7,6 +7,15 @@ the IDs were surprisingly worse.
 # #+PROPERTY: header-args :comments org
 #+OPTIONS: toc:1
 
+I probably should have kept a better record of this, but I THINK all that's required is 
+clone it
+cd to it
+cabal init
+cabal install
+
+
+
+
 * Installation instructions aren't going to work for this fork.
 : cabal install mpd-current-json
 or
